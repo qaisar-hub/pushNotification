@@ -7,5 +7,8 @@ $ xcrun simctl push <device> com.example.my-app ExamplePush.apns"
 
 Screen Recording
 
-https://user-images.githubusercontent.com/98053898/183263960-7e15d13f-d54a-4d77-916a-69089400b416.mp4
+
+
+https://user-images.githubusercontent.com/98053898/183264125-030697d4-6a5f-4f83-8377-fc6dc5df97a7.mov
+
 
