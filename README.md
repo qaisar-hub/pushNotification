@@ -12,3 +12,24 @@ Screen Recording
 https://user-images.githubusercontent.com/98053898/183264125-030697d4-6a5f-4f83-8377-fc6dc5df97a7.mov
 
 
+Run this command to see push notification in simulator
+
+xcrun simctl push <device> com.example.my-app ExamplePush.apns
+Or
+xcrun simctl push booted com.example.my-app ExamplePush.apns
+
+
+<device>/ identifier
+A52A1B07-D4A3-4CE6-A50E-1D516A4F141A
+
+Bundle identifier
+com.razaqaisar.PushNotification
+
+Json payload file
+Notification.apn
+
+
+xcrun simctl push A52A1B07-D4A3-4CE6-A50E-1D516A4F141A com.razaqaisar.PushNotification notification.apns
+
+
+xcrun simctl list -> give list of all simulator
